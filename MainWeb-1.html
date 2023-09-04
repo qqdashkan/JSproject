@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="MainSSC1.css" rel="stylesheet" type="text/css">
+  <script src="days.js"></script>
+</head>
+
+<body>
+    <p class="transparent-text">Калькулятор дней</p>
+
+<div class="first">
+  <h2>Введите дату от которой вы хотите посчитать количество дней</h2>
+</div>
+<div class="firstDate">
+
+<form>
+  <div class="start">
+    <label for="startDate">Начальная дата: </label>
+    <input type="date" id="firstdate" name="date"/>
+    </div>
+</form>
+</div>
+
+<div class="container">
+<div class="second">
+  <h2>Введите дату до которой вы хотите посчитать количество дней</h2>
+</div>
+
+<div class="end">
+<form>
+  <label for="endDate">Конечная дата: </label>
+  <input type="date" id="enddate" name="date"/>
+</form>
+</div>
+
+<div class="CountDays">
+  <input type="button" onclick="getDayDiff()" value="Результат">
+  <div id="result"></div> 
+</div>
+</div>
+
+<div class="kolvodney">
+<form>
+<label for="tentacles">Прибавить количество дней:</label>
+<input type="number" id="tentacles" name="tentacles"
+ min="1" max="10000">
+</form></div>
+
+
+<div class="CountDate">
+<input type="button" onclick="getNumberOfDays()" value="Результат">
+<div id="result1"></div> 
+</div>
+
+</body>
+</html>

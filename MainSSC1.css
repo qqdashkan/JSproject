@@ -1,0 +1,258 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: papayawhip;
+
+
+
+}
+h1, h2, h3 {
+  text-align: center;
+
+}
+
+.transparent-text {
+  font-family: 'Montserrat';
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin: 20px auto;
+}
+
+
+.title {
+display: flexbox;
+align-items: center;
+letter-spacing: 0.1em;
+}
+
+.first {
+font-size: small;
+top: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+.second {
+  top: 50px;
+  font-size: small;
+  top: 5px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.start {
+
+  color: #232323;
+  width: 40%;
+  margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    border: 1px solid #232323;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: .3em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.start:before {
+  content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    background: #32D4E2;
+    z-index: -1;
+    transition: .25s ease;
+    transform: translate(0, 0);
+}
+.start:hover:before {
+  transform: translate(4px, 4px);
+}
+
+
+#startDate {
+  width: 40%;
+    line-height: 1.2em;
+    font-size: 15px;
+    text-align: center;
+    border-spacing:2px;
+    color: #000;
+
+}
+
+.second {
+  top: 25px;
+
+}
+
+
+.container {
+  display: flexbox;
+  align-items: center;
+
+}
+.end {
+  margin-left: auto;
+    margin-right: auto;
+  font-weight: 400;
+  color: #232323;
+  top: 20px;
+  width: 30%;
+  height: 30px;
+  background: transparent;
+  border: 1px solid #232323;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: .3em;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+
+.end:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background: #32D4E2;
+  z-index: -1;
+  transition: .25s ease;
+  transform: translate(0, 0);
+}
+
+.end:hover:before {
+  transform: translate(4px, 4px);
+}
+
+
+#result {
+  font-size: xx-large;
+  font-weight: 900;
+  padding: 5px 10px 5px 10px;
+}
+
+.CountDays {
+  position: relative;
+  top: 50px;
+  padding: 10px;
+  padding-right: 20px; 
+  font-size: medium;
+  font-weight: 400;
+  padding: 5px 10px 5px 10px;
+}
+
+input [type="date"] {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input [type="date"] {
+  font-family: Helvetica;
+  letter-spacing: 0.4em;
+  font-weight: 600;
+  font-size: 100px;
+  text-align: center;
+  color: #202125;
+  cursor: pointer;
+  max-width: 600px; 
+  width: 40%; 
+  outline: 3px solid;
+  outline-color: rgba(71, 126, 232,0.5);
+  outline-offset: 70px;
+  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+input [type="date"]:hover {
+color: rgba(71, 126, 232, 0.7);
+outline-color: rgba(71, 126, 232, 0);
+outline-offset: 300px;
+}
+
+input[type="button"]  {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 40px;
+  margin: 10px 20px;
+  border: 1px solid #232323;
+  background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+  box-shadow: 0 16px 35px 0 rgba(0, 40, 120, .40);
+  transition: .5s;
+}
+input[type="button"]:hover {
+  box-shadow: 0 0 0 0 rgba(0, 40, 130, 0);
+  background-position: 0 0;
+}
+
+#result1 {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.kolvodney {
+  position: fixed;
+  bottom:  10px;
+  font-weight: 400;
+  color: #232323;
+  top: 50px;
+  width: 40%;
+  margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    border: 1px solid #232323;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: .3em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.kolvodney:before {
+
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background: #32D4E2;
+  z-index: -1;
+  transition: .25s ease;
+  transform: translate(0, 0);
+}
+
+.kolvodney:hover:before {
+  transform: translate(4px, 4px);
+}
+
+
+.CountDate {
+  position: relative;
+  top: 45px;
+  bottom:  20px;
+  padding: 10px;
+  padding-right: 20px; 
+  font-size: medium;
+  font-weight: 400;
+}
+
